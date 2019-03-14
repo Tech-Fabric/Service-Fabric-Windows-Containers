@@ -1,0 +1,93 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "clusterName": {
+            "value": "techfabrictest"
+        },
+        "clusterLocation": {
+            "value": "westus"
+        },
+        "computeLocation": {
+            "value": "westus"
+        },
+        "adminUserName": {
+            "value": "xxxxxxxxxxxxxxxxxxxxxxxxxxx"
+        },
+        "adminPassword": {
+            "value": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx!"
+        },
+        "nicName": {
+            "value": "NIC-techfabrictest"
+        },
+        "publicIPAddressName": {
+            "value": "techfabrictest-PubIP"
+        },
+        "dnsName": {
+            "value": "techfabrictest"
+        },
+        "virtualNetworkName": {
+            "value": "VNet-techfabrictest"
+        },
+        "lbName": {
+            "value": "LB-techfabrictest"
+        },
+        "lbIPName": {
+            "value": "LBIP-techfabrictest"
+        },
+        "applicationDiagnosticsStorageAccountName": {
+            "value": "techfabricstorage"
+        },
+        "applicationInsightsKey": {
+            "value": "ssssssssssssssssssssssssssssssssssssss"
+        },
+        "supportLogStorageAccountName": {
+            "value": "sflogstechfabrictest5643"
+        },
+        "sourceVaultValue": {
+            "value": "/subscriptions/subscriptionId/resourceGroups/techfabric-qa-sf-keyvault/providers/Microsoft.KeyVault/vaults/techfabric-qa-keyvault"
+        },
+        "certificateUrlValue": {
+            "value": "full cert url"
+        },
+        "certificateThumbprint": {
+            "value": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+        },
+        "vmImageSku": {
+            "value": "2016-Datacenter-with-Containers"
+        },
+        "vmImageOffer": {
+            "value": "WindowsServer"
+        },
+        "nt0ephemeralStartPort": {
+            "value": 49152
+        },
+        "nt0ephemeralEndPort": {
+            "value": 65534
+        },
+        "nt0applicationStartPort": {
+            "value": 20000
+        },
+        "nt0applicationEndPort": {
+            "value": 30000
+        },
+        "nt0fabricTcpGatewayPort": {
+            "value": 19000
+        },
+        "nt0fabricHttpGatewayPort": {
+            "value": 19080
+        },
+        "nt0reverseProxyEndpointPort": {
+            "value": 19081
+        },
+        "vnetUrl": {
+            "value": "/subscriptions/subscriptionid/resourceGroups/techfabric-qa-network/providers/Microsoft.Network/virtualNetworks/TechfabVNET"     
+        },
+        "subnetName": {
+            "value": "SubnetName"
+        },
+        "subnet0Prefix": {
+          "value": "10.0.0.0/24"
+        }
+    }
+}
